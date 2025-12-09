@@ -23,6 +23,7 @@ message = "Hello"
 #too common errors are SyntaxError and NameError
 #SyntaxError is an error with the program
 #NameError is when python interpreter sees a word it does not recognize
+#TypeError is when an operation is applied to an object of an innappropriate type
 
 #python stores number data as integers (int)- whole numbers and floating-point number (float)- decimels
 #python can perform arithmetic operations: addition, subtraction, multiplication, division
@@ -73,4 +74,6 @@ But you, a new brood, native, athletic, continental, greater than
 Arouse! for you must justify me.
 """
 print(leaves_of_grass)
+
+#bugs in python are denoted with ^
 
