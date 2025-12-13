@@ -29,6 +29,7 @@ message = "Hello"
 #python can perform arithmetic operations: addition, subtraction, multiplication, division
 
 #python can perform exponentation
+
 #2 to the 10th power
 print(2 ** 10)
 1024
@@ -72,8 +73,25 @@ Not to-day is to justify me and answer what I am for,
 But you, a new brood, native, athletic, continental, greater than
   before known,
 Arouse! for you must justify me.
-"""
+
 print(leaves_of_grass)
 
 #bugs in python are denoted with ^
+
+#in lists [] are used. You can append (add), remove (subtract), add two lists using +, or denote an item using negative. Lists are numbered starting at 0
+shopping_list = ["eggs", "butter", "milk", "cucumbers", "juice", "cereal"]
+
+last_element = (shopping_list[-1])
+index5_element = (shopping_list[5])
+print(last_element + index5_element)
+#-1 will print cereal, 4 will print juice
+
+#2D lists
+heights = [["Noelle", 61], ["Ali", 70], ["Sam", 67]]
+#"Noelle"	heights[0][0]
+#61	heights[0][1]
+#"Ali"	heights[1][0]
+#70	heights[1][1]
+#"Sam"	heights[2][0]
+#67	heights[2][1]
 
